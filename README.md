@@ -34,6 +34,11 @@ zyro-aiml-internship/
 ├── README.md
 ├── requirements.txt
 └── week-01/
+    ├── graphs/
+    │   ├── ml_confusion_matrix.png
+    │   └── ml_feature_visualizations.png
+    ├── Screenshots/
+    │   └── successful_ml_test.png
     ├── environment_test.ipynb    # Interactive Jupyter Notebook test & ML pipeline
     └── environment_test.py       # Standalone environment & ML verification script
 ```
@@ -97,15 +102,20 @@ Select the **Python (.venv)** or **Python (zyro-env)** kernel to execute all cel
 
 ---
 
-## 📷 Submission Proofs & Verification Screenshots
+## 📊 Machine Learning Model Visualizations & Results
 
-### 1. Virtual Environment (.venv) Verification
-![Virtual Environment](week-01/Screenshots/virtual_environment.png)
+### 1. Model Test Execution
+![ML Test Execution](week-01/Screenshots/successful_ml_test.png)
 
 ---
 
-### 2. Machine Learning Test Execution
-![ML Test](week-01/Screenshots/successful_ml_test.png)
+### 2. Confusion Matrix Heatmap
+![Confusion Matrix](week-01/graphs/ml_confusion_matrix.png)
+
+---
+
+### 3. Feature Distribution & Pairwise Relationships
+![Feature Visualizations](week-01/graphs/ml_feature_visualizations.png)
 
 ---
 
