@@ -115,32 +115,33 @@ Select the **Python (.venv)** or **Python (zyro-env)** kernel to execute all cel
 ## 📷 Submission Proofs & Verification Screenshots
 
 ### 1. Python Version Verification
-![Python Version](proof/python_version.png)
+![Python Version](week-01/Screenshots/Python_Version.png)
 
 ---
 
 ### 2. Git Version Verification
-![Git Version](proof/git_version.png)
+![Git Version](week-01/Screenshots/git_version.png)
 
 ---
 
 ### 3. Virtual Environment (.venv) Verification
-![Virtual Environment](proof/virtual_environment.png)
+![Virtual Environment](week-01/Screenshots/virtual_environment.png)
 
 ---
 
-### 4. Machine Learning Test Execution (90.00% Accuracy)
-![ML Test](proof/successful_ml_test.png)
+### 4. Machine Learning Test Execution
+![ML Test](week-01/Screenshots/successful_ml_test.png)
 
 ---
 
-### 5. Confusion Matrix & Data Visualizations
+### 5. Community & Channel Verification
 <p align="center">
-  <img src="proof/ml_confusion_matrix.png" width="48%" />
-  <img src="proof/ml_feature_visualizations.png" width="48%" />
+  <img src="week-01/Screenshots/community_join.png" width="48%" alt="Community Join" />
+  <img src="week-01/Screenshots/channel_join.png" width="48%" alt="Channel Join" />
 </p>
 
 ---
+
 
 ## 📬 Contact & Links
 - **GitHub Profile**: [sohaib61595](https://github.com/sohaib61595)
