@@ -94,21 +94,6 @@ jupyter notebook week-01/environment_test.ipynb
 ```
 Select the **Python (.venv)** or **Python (zyro-env)** kernel to execute all cells.
 
----
-
-## 📋 Week 1 Checklist & Submission Verification
-
-- [x] Zyroo website reviewed
-- [x] WhatsApp Community joined
-- [x] AI/ML Channel joined
-- [x] Python installed & verified (`python --version`)
-- [x] Git installed & verified (`git --version`)
-- [x] VS Code installed
-- [x] Virtual environment created (`.venv`)
-- [x] AI/ML libraries installed (`numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `jupyter`)
-- [x] Basic ML program runs successfully (Random Forest on Iris Dataset)
-- [x] Interactive Jupyter Notebook created & verified (`week-01/environment_test.ipynb`)
-- [x] GitHub repository created & Week 1 work pushed
 
 ---
 
