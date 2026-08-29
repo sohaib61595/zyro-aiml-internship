@@ -112,8 +112,39 @@ Select the **Python (.venv)** or **Python (zyro-env)** kernel to execute all cel
 
 ---
 
+## 📷 Submission Proofs & Verification Screenshots
+
+### 1. Python Version Verification
+![Python Version](proof/python_version.png)
+
+---
+
+### 2. Git Version Verification
+![Git Version](proof/git_version.png)
+
+---
+
+### 3. Virtual Environment (.venv) Verification
+![Virtual Environment](proof/virtual_environment.png)
+
+---
+
+### 4. Machine Learning Test Execution (90.00% Accuracy)
+![ML Test](proof/successful_ml_test.png)
+
+---
+
+### 5. Confusion Matrix & Data Visualizations
+<p align="center">
+  <img src="proof/ml_confusion_matrix.png" width="48%" />
+  <img src="proof/ml_feature_visualizations.png" width="48%" />
+</p>
+
+---
+
 ## 📬 Contact & Links
 - **GitHub Profile**: [sohaib61595](https://github.com/sohaib61595)
 - **GitHub Repository**: [zyro-aiml-internship](https://github.com/sohaib61595/zyro-aiml-internship)
 - **Internship**: Zyro AI/ML Internship
+
 
