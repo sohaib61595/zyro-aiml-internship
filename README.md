@@ -99,31 +99,13 @@ Select the **Python (.venv)** or **Python (zyro-env)** kernel to execute all cel
 
 ## 📷 Submission Proofs & Verification Screenshots
 
-### 1. Python Version Verification
-![Python Version](week-01/Screenshots/Python_Version.png)
-
----
-
-### 2. Git Version Verification
-![Git Version](week-01/Screenshots/git_version.png)
-
----
-
-### 3. Virtual Environment (.venv) Verification
+### 1. Virtual Environment (.venv) Verification
 ![Virtual Environment](week-01/Screenshots/virtual_environment.png)
 
 ---
 
-### 4. Machine Learning Test Execution
+### 2. Machine Learning Test Execution
 ![ML Test](week-01/Screenshots/successful_ml_test.png)
-
----
-
-### 5. Community & Channel Verification
-<p align="center">
-  <img src="week-01/Screenshots/community_join.png" width="48%" alt="Community Join" />
-  <img src="week-01/Screenshots/channel_join.png" width="48%" alt="Channel Join" />
-</p>
 
 ---
 
