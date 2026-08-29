@@ -113,6 +113,7 @@ Select the **Python (.venv)** or **Python (zyro-env)** kernel to execute all cel
 ---
 
 ## 📬 Contact & Links
-- **GitHub Profile**: [Your Profile Link]
-- **GitHub Repository**: [Your Repository Link]
+- **GitHub Profile**: [sohaib61595](https://github.com/sohaib61595)
+- **GitHub Repository**: [zyro-aiml-internship](https://github.com/sohaib61595/zyro-aiml-internship)
 - **Internship**: Zyro AI/ML Internship
+
