@@ -36,8 +36,7 @@ zyro-aiml-internship/
 └── week-01/
     ├── graphs/
     │   ├── ml_confusion_matrix.png
-    │   └── ml_feature_visualizations.png
-    ├── Screenshots/
+    │   ├── ml_feature_visualizations.png
     │   └── successful_ml_test.png
     ├── environment_test.ipynb    # Interactive Jupyter Notebook test & ML pipeline
     └── environment_test.py       # Standalone environment & ML verification script
@@ -105,7 +104,7 @@ Select the **Python (.venv)** or **Python (zyro-env)** kernel to execute all cel
 ## 📊 Machine Learning Model Visualizations & Results
 
 ### 1. Model Test Execution
-![ML Test Execution](week-01/Screenshots/successful_ml_test.png)
+![ML Test Execution](week-01/graphs/successful_ml_test.png)
 
 ---
 

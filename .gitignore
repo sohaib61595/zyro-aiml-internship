@@ -50,3 +50,8 @@ MANIFEST
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Screenshots
+[Ss]creenshots/
+**/[Ss]creenshots/
+
