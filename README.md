@@ -33,14 +33,20 @@ zyro-aiml-internship/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-└── week-01/
-    ├── graphs/
-    │   ├── ml_confusion_matrix.png
-    │   ├── ml_feature_visualizations.png
-    │   └── successful_ml_test.png
-    ├── environment_test.ipynb    # Interactive Jupyter Notebook test & ML pipeline
-    └── environment_test.py       # Standalone environment & ML verification script
+├── week-01/                    # Milestone 1: Environment Setup & Tooling Verification
+│   ├── graphs/
+│   │   ├── ml_confusion_matrix.png
+│   │   ├── ml_feature_visualizations.png
+│   │   └── successful_ml_test.png
+│   ├── environment_test.ipynb  # Interactive Jupyter Notebook test & ML pipeline
+│   └── environment_test.py     # Standalone environment & ML verification script
+└── week 1 internship/          # Task 01: AI Document Intelligence MVP Platform
+    ├── app.py                  # Streamlit application with PyMuPDF & Tesseract OCR
+    ├── requirements.txt        # Week 1 dependencies
+    ├── README.md               # Detailed architecture, setup & test results
+    └── samples/                # Sample test invoices & candidate CVs
 ```
+
 
 ---
 
