@@ -52,7 +52,7 @@ flowchart TD
 
 ```
 zyro-aiml-internship/
-├── week 1 internship/
+├── week-1-internship/
 │   ├── app.py                  # Complete end-to-end Streamlit application
 │   ├── requirements.txt        # Week 1 dependencies (Streamlit, PyMuPDF, OCR)
 │   ├── README.md               # Documentation, setup & submission guide
@@ -88,7 +88,7 @@ cd zyro-aiml-internship
 source .venv/bin/activate
 
 # Navigate to Week 1 folder
-cd "week 1 internship"
+cd week-1-internship
 
 # Install dependencies
 pip install -r requirements.txt
