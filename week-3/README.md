@@ -137,7 +137,6 @@ week-3/
 ├── model_trainer.py            # TF-IDF, training, comparison, metrics & serialized pipeline
 ├── extractor.py                # Regex extraction rules & missing-field resilience engine
 ├── test_week3.py               # Standalone automated test suite & batch audit
-├── generate_samples.py         # Test PDF and scanned image sample generator
 ├── model_comparison.ipynb      # Interactive Jupyter notebook for ML experimentation
 ├── requirements.txt            # Standalone Week 3 dependencies
 ├── README.md                   # Complete documentation and milestone report

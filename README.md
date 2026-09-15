@@ -49,7 +49,6 @@ zyro-aiml-internship/
     ├── model_trainer.py        # ML comparison: Linear SVM, Logistic Regression, Naive Bayes
     ├── extractor.py            # Regex entity extraction with missing-field resilience
     ├── test_week3.py           # Unit & integration test suite with batch document audit
-    ├── generate_samples.py     # Test PDF and scanned image sample generator
     ├── model_comparison.ipynb  # Interactive Jupyter Notebook for ML benchmark
     ├── requirements.txt        # Week 3 dependencies
     ├── README.md               # Complete Week 3 documentation and milestone report
