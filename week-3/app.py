@@ -102,6 +102,26 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+def safe_render_image(img_or_path, caption=None):
+    """Safely renders an image across all Streamlit versions (local & cloud)."""
+    try:
+        if isinstance(img_or_path, str):
+            if os.path.exists(img_or_path):
+                img = Image.open(img_or_path)
+                try:
+                    st.image(img, caption=caption, use_container_width=True)
+                except TypeError:
+                    st.image(img, caption=caption)
+        elif img_or_path is not None:
+            try:
+                st.image(img_or_path, caption=caption, use_container_width=True)
+            except TypeError:
+                st.image(img_or_path, caption=caption)
+    except Exception:
+        if caption:
+            st.caption(f"[{caption}]")
+
+
 # ==============================================================================
 # 2. SIDEBAR CONFIGURATION & APP INFO
 # ==============================================================================
@@ -330,17 +350,17 @@ with tab_benchmark:
     with col_graph1:
         metrics_chart = os.path.join(base_dir, "graphs", "model_metrics_barchart.png")
         if os.path.exists(metrics_chart):
-            st.image(metrics_chart, caption="Model Metrics Comparison Bar Chart", use_column_width=True)
+            safe_render_image(metrics_chart, caption="Model Metrics Comparison Bar Chart")
 
     with col_graph2:
         tfidf_chart = os.path.join(base_dir, "graphs", "tfidf_top_features.png")
         if os.path.exists(tfidf_chart):
-            st.image(tfidf_chart, caption="Top TF-IDF Informative Features per Class", use_column_width=True)
+            safe_render_image(tfidf_chart, caption="Top TF-IDF Informative Features per Class")
 
     st.markdown("#### 🔍 Confusion Matrices Comparison")
     cm_chart = os.path.join(base_dir, "graphs", "confusion_matrices_comparison.png")
     if os.path.exists(cm_chart):
-        st.image(cm_chart, caption="Side-by-Side Confusion Matrices across all evaluated models", use_column_width=True)
+        safe_render_image(cm_chart, caption="Side-by-Side Confusion Matrices across all evaluated models")
 
 
 # ==============================================================================
@@ -359,7 +379,7 @@ with tab_ocr_studio:
     with col_img_in:
         st.markdown("#### Original Document")
         if demo_image:
-            st.image(demo_image, caption="Raw Scanned Image", use_column_width=True)
+            safe_render_image(demo_image, caption="Raw Scanned Image")
             
     with col_img_out:
         st.markdown("#### Preprocessed for Tesseract OCR")
@@ -367,7 +387,7 @@ with tab_ocr_studio:
             proc_demo, proc_steps = preprocess_image_for_ocr(
                 demo_image, to_grayscale=True, scale_factor=1.5, contrast_boost=1.8, binarize=True, denoise=True
             )
-            st.image(proc_demo, caption=f"Preprocessed (Otsu Binarized & Upscaled): {proc_steps}", use_column_width=True)
+            safe_render_image(proc_demo, caption=f"Preprocessed (Otsu Binarized & Upscaled): {proc_steps}")
 
     if demo_image and is_tesseract_available():
         st.markdown("#### ⚡ OCR Recognition Comparison")
