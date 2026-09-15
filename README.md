@@ -35,16 +35,28 @@ zyro-aiml-internship/
 ├── requirements.txt
 ├── week-01/                    # Milestone 1: Environment Setup & Tooling Verification
 │   ├── graphs/
-│   │   ├── ml_confusion_matrix.png
-│   │   ├── ml_feature_visualizations.png
-│   │   └── successful_ml_test.png
 │   ├── environment_test.ipynb  # Interactive Jupyter Notebook test & ML pipeline
 │   └── environment_test.py     # Standalone environment & ML verification script
-└── week-1-internship/          # Task 01: AI Document Intelligence MVP Platform
-    ├── app.py                  # Streamlit application with PyMuPDF & Tesseract OCR
-    ├── requirements.txt        # Week 1 dependencies
-    ├── README.md               # Detailed architecture, setup & test results
-    └── samples/                # Sample test invoices & candidate CVs
+├── week-1-internship/          # Task 01: AI Document Intelligence MVP Platform
+│   ├── app.py                  # Streamlit application with PyMuPDF & Tesseract OCR
+│   ├── requirements.txt        # Week 1/2 dependencies
+│   ├── README.md               # Detailed architecture, setup & test results
+│   └── samples/                # Sample test invoices & candidate CVs
+└── week-3/                     # Task 02: Improve Document Understanding (Week 3)
+    ├── app.py                  # 4-Tab Streamlit Dashboard (Intelligence, Benchmark, OCR Studio, Batch Audit)
+    ├── text_cleaner.py         # Unicode NFKC cleaning & line condensation
+    ├── ocr_engine.py           # Preprocessed OCR (Otsu binarization, noise reduction, scaling)
+    ├── model_trainer.py        # ML comparison: Linear SVM, Logistic Regression, Naive Bayes
+    ├── extractor.py            # Regex entity extraction with missing-field resilience
+    ├── test_week3.py           # Unit & integration test suite with batch document audit
+    ├── generate_samples.py     # Test PDF and scanned image sample generator
+    ├── model_comparison.ipynb  # Interactive Jupyter Notebook for ML benchmark
+    ├── requirements.txt        # Week 3 dependencies
+    ├── README.md               # Complete Week 3 documentation and milestone report
+    ├── dataset/                # Curated balanced 36-document corpus
+    ├── graphs/                 # Confusion matrices, benchmark chart, TF-IDF features
+    ├── models/                 # Serialized Calibrated Linear SVM model pipeline
+    └── samples/                # Digital & scanned PDFs, images, and edge-case documents
 ```
 
 
