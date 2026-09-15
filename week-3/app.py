@@ -229,13 +229,13 @@ with tab_intelligence:
 
         # Warning for short/unclear text if detected
         if quality_info["warning"]:
-            st.warning(f"⚠️ {quality_info['warning']}")
+            st.warning(f" {quality_info['warning']}")
 
         # Primary Results Layout: Entity Extraction vs Text Comparison
         left_col, right_col = st.columns([1.1, 0.9])
 
         with left_col:
-            st.markdown("### 📌 Structured Entity Extraction")
+            st.markdown("###  Structured Entity Extraction")
             st.caption("Fields automatically extracted with regex heuristics & missing-field resilience.")
 
             fields_data = extraction_result.get("fields", {})
@@ -260,7 +260,7 @@ with tab_intelligence:
 
             st.write("")
             # Probability Breakdown Chart
-            st.markdown("#### 🎯 Classification Probability Distribution")
+            st.markdown("####  Classification Probability Distribution")
             prob_dict = cls_result.get("probabilities", {})
             if prob_dict:
                 prob_df = pd.DataFrame(list(prob_dict.items()), columns=["Category", "Probability"])
@@ -305,7 +305,7 @@ with tab_intelligence:
                 st.write(f"- **OCR Preprocessing Steps:** `{extract_meta.get('preprocessing', 'None')}`")
 
     else:
-        st.info("👈 Upload a document or select a preloaded test sample from the dropdown above to begin.", icon="ℹ️")
+        st.info(" Upload a document or select a preloaded test sample from the dropdown above to begin.", icon="ℹ️")
 
 
 # ==============================================================================
