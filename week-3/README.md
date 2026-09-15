@@ -24,24 +24,22 @@ Welcome to the **Week 3 Milestone** of the Zyroo AI/ML Internship. This week ext
 
 ```mermaid
 flowchart TD
-    A["Uploaded Document<br/>(PDF, PNG, JPG, JPEG)"] --> B{"File Type Check"}
-    B -->|Native Digital PDF| C["PyMuPDF Native Text Parser"]
-    B -->|Scanned PDF / Image| D["OCR Preprocessing Engine<br/>(Grayscale, Upscale, Contrast, Otsu Binarize, Denoise)"]
-    C -->|Text < 40 chars| D
+    A["Uploaded Document (PDF, PNG, JPG, JPEG)"] --> B{"File Type Check"}
+    B -->|Digital PDF| C["PyMuPDF Native Text Parser"]
+    B -->|Scanned or Image| D["OCR Preprocessing Pipeline"]
+    C -->|Fallback if text minimal| D
     D --> E["Tesseract OCR Engine"]
-    C --> F["Raw Extracted Text Stream"]
+    C --> F["Text Cleaning and Normalization Engine"]
     E --> F
-    F --> G["Text Cleaning & Normalization Engine<br/>(Unicode NFKC, Whitespace Collapse, Artifact Removal)"]
-    G --> H["Cleaned Text Stream"]
-    H --> I["Trained TF-IDF + Calibrated Linear SVM Classifier"]
-    I --> J{"Predicted Document Type"}
-    J -->|Invoice + Confidence %| K["Invoice Entity Extractor<br/>(Invoice #, Date, Company, Total Amount)"]
-    J -->|Resume + Confidence %| L["Resume Entity Extractor<br/>(Name, Email, Phone, Skills)"]
-    J -->|Other + Confidence %| M["Generic Document Handler<br/>(Title, Date, Subject)"]
-    K --> N["Missing-Field Auditor<br/>(Explicit 'Not Found' & Completeness %)"]
-    L --> N
-    M --> N
-    N --> O["Streamlit Interactive UI & JSON Export"]
+    F --> G["Trained TF-IDF and Linear SVM Classifier"]
+    G --> H{"Predicted Category"}
+    H -->|Invoice| I["Invoice Entity Extractor"]
+    H -->|Resume| J["Resume Entity Extractor"]
+    H -->|Other| K["Generic Document Handler"]
+    I --> L["Missing Field Resilience Auditor"]
+    J --> L
+    K --> L
+    L --> M["Streamlit UI and JSON Export"]
 ```
 
 ---

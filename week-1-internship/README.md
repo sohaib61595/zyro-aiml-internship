@@ -28,21 +28,21 @@ A lightweight, production-grade Document Intelligence MVP built for the **Zyroo 
 
 ```mermaid
 flowchart TD
-    A["User Upload (PDF / PNG / JPG)"] --> B{"File Type Check"}
+    A["User Upload (PDF, PNG, JPG)"] --> B{"File Type Check"}
     B -->|PDF| C["PyMuPDF Native Text Parser"]
-    B -->|Image / Scanned| D["Tesseract OCR Pipeline"]
-    C -->|No text found| D
-    C --> E["Extracted Text Stream"]
-    D --> E
+    B -->|Image or Scanned| D["Tesseract OCR Pipeline"]
+    C -->|Fallback if empty| D
+    D --> E["Extracted Text Stream"]
+    C --> E
     E --> F["Document Classifier"]
-    F -->|Keywords & TF-IDF| G{"Document Type?"}
+    F -->|Keywords and TF-IDF| G{"Document Type"}
     G -->|Invoice| H["Invoice Entity Parser"]
     G -->|Resume| I["Resume Entity Parser"]
     G -->|Other| J["Generic Fallback Parser"]
     H --> K["Structured Key-Value Fields"]
     I --> K
     J --> K
-    K --> L["Interactive Streamlit UI & JSON Export"]
+    K --> L["Interactive Streamlit UI and JSON Export"]
     K --> M["FastAPI Endpoint Response"]
 ```
 
