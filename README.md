@@ -42,20 +42,25 @@ zyro-aiml-internship/
 │   ├── requirements.txt        # Week 1/2 dependencies
 │   ├── README.md               # Detailed architecture, setup & test results
 │   └── samples/                # Sample test invoices & candidate CVs
-└── week-3/                     # Task 02: Improve Document Understanding (Week 3)
-    ├── app.py                  # 4-Tab Streamlit Dashboard (Intelligence, Benchmark, OCR Studio, Batch Audit)
-    ├── text_cleaner.py         # Unicode NFKC cleaning & line condensation
-    ├── ocr_engine.py           # Preprocessed OCR (Otsu binarization, noise reduction, scaling)
-    ├── model_trainer.py        # ML comparison: Linear SVM, Logistic Regression, Naive Bayes
-    ├── extractor.py            # Regex entity extraction with missing-field resilience
-    ├── test_week3.py           # Unit & integration test suite with batch document audit
-    ├── model_comparison.ipynb  # Interactive Jupyter Notebook for ML benchmark
-    ├── requirements.txt        # Week 3 dependencies
-    ├── README.md               # Complete Week 3 documentation and milestone report
-    ├── dataset/                # Curated balanced 36-document corpus
-    ├── graphs/                 # Confusion matrices, benchmark chart, TF-IDF features
-    ├── models/                 # Serialized Calibrated Linear SVM model pipeline
-    └── samples/                # Digital & scanned PDFs, images, and edge-case documents
+├── week-3/                     # Task 02: Improve Document Understanding (Week 3)
+│   ├── app.py                  # 4-Tab Streamlit Dashboard (Intelligence, Benchmark, OCR Studio, Batch Audit)
+│   ├── text_cleaner.py         # Unicode NFKC cleaning & line condensation
+│   ├── ocr_engine.py           # Preprocessed OCR (Otsu binarization, noise reduction, scaling)
+│   ├── model_trainer.py        # ML comparison: Linear SVM, Logistic Regression, Naive Bayes
+│   ├── extractor.py            # Regex entity extraction with missing-field resilience
+│   ├── test_week3.py           # Unit & integration test suite with batch document audit
+│   └── README.md               # Complete Week 3 documentation and milestone report
+└── week-4/                     # Task 03: Document Management & SQLite Repository (Week 4)
+    ├── app.py                  # 4-Tab Streamlit Management Studio (Upload, Repository, Inspector, Analytics)
+    ├── db_repository.py         # Decoupled SQLite repository layer (CRUD, multi-field search, stats)
+    ├── storage_manager.py       # Categorized storage (invoices/resumes/other), safe filenames & SHA-256
+    ├── pipeline.py              # End-to-end 11-step ingestion and understanding pipeline
+    ├── test_week4.py            # Automated 10-stage test suite (11 documents, duplicates, search, filters)
+    ├── document_repository.db   # Relational SQLite database repository
+    ├── requirements.txt         # Week 4 dependencies
+    ├── README.md                # Comprehensive architecture and operational documentation
+    ├── storage/                 # Organized physical directory storage
+    └── samples/                 # Curated diverse test documents (invoices, resumes, other, scans)
 ```
 
 

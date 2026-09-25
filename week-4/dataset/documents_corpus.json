@@ -1,0 +1,182 @@
+[
+  {
+    "id": "inv_01",
+    "category": "Invoice",
+    "text": "TAX INVOICE\nApex Digital Solutions LLC\n142 Innovation Way, Suite 400, Austin, TX 78701\nTax ID: 84-2948192\n\nBilled To:\nHorizon Enterprises Inc.\nAttn: Accounts Payable\n900 Market Street, San Francisco, CA 94103\n\nInvoice Number: INV-2026-0814\nInvoice Date: 12-Jan-2026\nDue Date: 11-Feb-2026\nPayment Terms: Net 30\n\nDescription                       Qty    Unit Price     Total\nCloud Infrastructure Setup         1      $3,500.00   $3,500.00\nDatabase Optimization & Tuning     20       $150.00   $3,000.00\nSecurity Compliance Audit          1      $1,250.00   $1,250.00\n\nSubtotal: $7,750.00\nSales Tax (8.25%): $639.38\nTotal Amount Due: $8,389.38\n\nPlease remit payment via ACH or Wire Transfer to Apex Digital Solutions."
+  },
+  {
+    "id": "inv_02",
+    "category": "Invoice",
+    "text": "COMMERCIAL INVOICE\nFalcon Logistics Pvt Ltd\nPlot 45-C, Korangi Industrial Area, Karachi, Pakistan\nNTN: 4920194-7 | Sales Tax Reg: 17-00-4920-194-7\n\nBill To:\nZenith Retailers Ltd\nMain Boulevard, Gulberg III, Lahore\n\nInvoice #: FL-90421\nDate: 04/02/2026\nPO Number: PO-55291\n\nItem Description                  Qty    Rate (PKR)    Amount (PKR)\nFreight Forwarding - Air Cargo      3       45,000        135,000\nCustoms Clearance Handling          1       25,000         25,000\nWarehousing Fee (14 days)          14        3,000         42,000\n\nSub Total: PKR 202,000\nSindh Sales Tax (13%): PKR 26,260\nTotal Amount: PKR 228,260\n\nBank Account: Habib Bank Limited, Branch Code 0192, Account # 001928472910."
+  },
+  {
+    "id": "inv_03",
+    "category": "Invoice",
+    "text": "INVOICE\nVanguard Creative Studios\n88 Elmwood Avenue, Boston, MA 02116\nEmail: billing@vanguardcreatives.com\n\nCustomer Details:\nStarlight Media Group\nContact: Sarah Jenkins\n\nInvoice No: VNG-7712\nDate: February 18, 2026\nDue Date: March 05, 2026\n\nServices Rendered                 Hours   Rate          Amount\nBrand Identity Redesign            40     $110.00     $4,400.00\nDesign System Documentation        15     $110.00     $1,650.00\nVector Iconography Library          1     $800.00       $800.00\n\nSubtotal: $6,850.00\nDiscount: -$350.00\nTotal Balance Due: $6,500.00\nThank you for choosing Vanguard Creative Studios!"
+  },
+  {
+    "id": "inv_04",
+    "category": "Invoice",
+    "text": "GLOBAL TECH HARDWARE SUPPLIES\nInvoice No: GTH-2026-104\nDate of Issue: 2026-03-01\n\nBilled By:\nGlobal Tech Supplies Ltd\n23 Silicon Park, Reading, RG1 4QW, UK\n\nDeliver To:\nNextGen Data Systems\n10 Central Way, London, EC2A 1AB\n\nDescription                       Quantity    Unit Cost     Line Total\nRackmount Server Chassis 2U          4        £650.00      £2,600.00\n16-Port Managed Gigabit Switch       2        £220.00        £440.00\nCat6 Ethernet Spool (305m)           5         £85.00        £425.00\n\nNet Total: £3,465.00\nVAT (20%): £693.00\nGrand Total: £4,158.00\nDue Date: 31-03-2026. Payment by BACS transfer."
+  },
+  {
+    "id": "inv_05",
+    "category": "Invoice",
+    "text": "INVOICE STATEMENT\nCloudScale DevOps Consultancy\nInvoice ID: CSD-44910\nDate: 05/01/2026\nVendor: CloudScale Solutions Inc\nClient: FinServe Mobile Banking\n\nScope of Work:\n- Kubernetes Cluster Migration: $5,200.00\n- Terraform Infrastructure as Code: $3,100.00\n- CI/CD Pipeline Automation: $2,400.00\n\nSubtotal: $10,700.00\nTax: $0.00\nTotal: $10,700.00\nStatus: UNPAID\nPayment due within 15 days upon receipt."
+  },
+  {
+    "id": "inv_06",
+    "category": "Invoice",
+    "text": "BILLING INVOICE\nBlueWave Marketing Agency\nBill No: BW-8812\nDated: 19-Feb-2026\n\nFrom: BlueWave Digital Media\nTo: EcoFriendly Products Co.\n\nDescription                          Amount\nMonthly SEO Management              $1,200.00\nSocial Media Ad Campaigns           $2,500.00\nContent Writing (8 Articles)        $1,000.00\n\nTotal Charges: $4,700.00\nAdvance Paid: $1,500.00\nBalance Due: $3,200.00\nFor wire transfers, account details are enclosed on page 2."
+  },
+  {
+    "id": "inv_07",
+    "category": "Invoice",
+    "text": "INVOICE\nPrecision Engineering Works\nPlot 12, Industrial Estate, Rawalpindi\nInvoice Number: PEW-00984\nDate: 28-Feb-2026\n\nCustomer: Delta Manufacturing Co.\nNTN: 8817263-2\n\nParticulars                       Qty     Unit Price      Total (PKR)\nCNC Milling Machine Parts          10        12,500          125,000\nLathe Turning Components           25         3,200           80,000\nSurface Grinding Job Work           1        45,000           45,000\n\nSubtotal: PKR 250,000\nGST 18%: PKR 45,000\nGrand Total: PKR 295,000\nTerms: Strictly 15 days credit."
+  },
+  {
+    "id": "inv_08",
+    "category": "Invoice",
+    "text": "TAX INVOICE\nMetro Office Equipment Supplies\nInvoice Ref: METRO-3391\nDate: 10/03/2026\nSold By: Metro Retailers Pvt Ltd\nBilled To: Prime Legal Associates\n\nItems:\n- Ergonomic Office Chairs (Qty: 6) - $1,500.00\n- Standing Desk Converters (Qty: 4) - $960.00\n- High-Speed Document Scanner (Qty: 1) - $480.00\n\nTotal Before Tax: $2,940.00\nSales Tax (6%): $176.40\nTotal Amount Payable: $3,116.40\nPayment Method: Corporate Credit Card."
+  },
+  {
+    "id": "inv_09",
+    "category": "Invoice",
+    "text": "INVOICE #99482\nCyberShield Security Services\nDate: 14-Jan-2026\nCompany: CyberShield Ltd, Dublin, Ireland\nClient: Alpine Financial Trust\n\nService Breakdown:\n- External Penetration Testing: €4,500.00\n- Cloud Architecture Review: €2,800.00\n- Threat Modeling Workshop: €1,200.00\n\nNet Amount: €8,500.00\nVAT (23%): €1,955.00\nTotal: €10,455.00\nPayment Terms: Net 30. IBAN: IE29AIBK93115212345678."
+  },
+  {
+    "id": "inv_10",
+    "category": "Invoice",
+    "text": "ORIGINAL INVOICE\nVertex AI Systems\nInvoice Number: VX-2026-551\nIssue Date: 2026-02-11\nVendor Name: Vertex AI Innovations\nBilled To: Quantum Analytics Corp\n\nServices:\n- Custom NLP Model Training & Fine-Tuning: $8,000.00\n- Vector Database Deployment & Indexing: $3,500.00\n- Production API Integration & Dockerization: $2,500.00\n\nSubtotal: $14,000.00\nDiscount: $0.00\nTotal Amount: $14,000.00"
+  },
+  {
+    "id": "inv_11",
+    "category": "Invoice",
+    "text": "SERVICE INVOICE\nEvergreen Facility Management\nInvoice #: EFM-11029\nDate: 03-Feb-2026\nFrom: Evergreen Services Group\nTo: Sterling Corporate Tower\n\nMonthly Commercial Cleaning & Sanitization: $2,800.00\nHVAC Filter Replacement & Maintenance: $650.00\nElectrical Inspection: $450.00\nTotal Amount Due: $3,900.00\nThank you for your business!"
+  },
+  {
+    "id": "inv_12",
+    "category": "Invoice",
+    "text": "TAX INVOICE\nSynergy Cloud Hosting\nInvoice No: SCH-8874\nDate: 15-Mar-2026\nDue Date: 30-Mar-2026\nCompany: Synergy Cloud Hosting LLC\nCustomer: Mobile Apps Studio\n\nItem: Dedicated GPU Compute Server (A100)\nDuration: 1 Month\nBase Rate: $1,450.00\nBandwidth Overage (2TB): $120.00\nTotal Balance: $1,570.00"
+  },
+  {
+    "id": "res_01",
+    "category": "Resume",
+    "text": "MUHAMMAD USMAN\nEmail: usman.dev@gmail.com | Phone: +92 300 1234567 | Lahore, Pakistan\nLinkedIn: linkedin.com/in/usman-dev | GitHub: github.com/usmandev\n\nPROFESSIONAL SUMMARY\nDedicated Full Stack Software Engineer with 4+ years of experience designing high-throughput web applications, REST APIs, and distributed backend systems. Proficient in Python, Django, React, and PostgreSQL.\n\nEDUCATION\nBachelor of Science in Computer Science (BSCS)\nFAST-NUCES Lahore (2018 - 2022) | CGPA: 3.65\n\nWORK EXPERIENCE\nSenior Software Engineer | TechLogix (2022 - Present)\n- Architected microservices with FastAPI and Celery handling 2M+ requests daily.\n- Optimized SQL queries in PostgreSQL reducing database latency by 35%.\n- Built frontend dashboards using React, Next.js, and TailwindCSS.\n\nTECHNICAL SKILLS\nProgramming: Python, JavaScript, TypeScript, SQL, C++\nFrameworks: Django, FastAPI, Flask, React, Next.js, Node.js\nDatabases: PostgreSQL, Redis, MongoDB, MySQL\nDevOps & Tools: Docker, Kubernetes, AWS, Git, CI/CD, Linux"
+  },
+  {
+    "id": "res_02",
+    "category": "Resume",
+    "text": "SARAH CHEN\nEmail: sarah.chen.ml@outlook.com | Phone: (415) 890-3412 | San Francisco, CA\n\nPROFESSIONAL PROFILE\nAI & Machine Learning Engineer specializing in Computer Vision, Natural Language Processing, and deep learning model deployment. Proven track record of developing PyTorch models and deploying them via ONNX runtime on AWS.\n\nEXPERIENCE\nMachine Learning Engineer | NeuralScale AI (2023 - Present)\n- Developed multi-modal document understanding models using PyTorch and HuggingFace Transformers.\n- Improved OCR recognition accuracy on scanned documents by 18% with OpenCV binarization pipelines.\n- Automated model training workflows using MLflow and Docker.\n\nJunior Data Scientist | BioHealth Analytics (2021 - 2023)\n- Analyzed clinical trial tabular datasets with Pandas, NumPy, and Scikit-Learn.\n- Trained Random Forest and XGBoost classifiers achieving 92% ROC-AUC.\n\nEDUCATION\nMaster of Science in Computer Science (Machine Learning Specialization)\nStanford University (2019 - 2021)\nBachelor of Science in Electrical Engineering\nUC Berkeley (2015 - 2019)\n\nSKILLS\nMachine Learning, Deep Learning, PyTorch, TensorFlow, Scikit-Learn, OpenCV, NLP, Python, Docker, AWS"
+  },
+  {
+    "id": "res_03",
+    "category": "Resume",
+    "text": "HAMZA ALI\nEmail: hamza.ali99@hotmail.com\nPhone: +92 321 9876543\nIslamabad, Pakistan\n\nCAREER OBJECTIVE\nEnthusiastic Data Analyst with expertise in statistical data analysis, SQL querying, and business intelligence dashboards using Power BI and Tableau.\n\nEMPLOYMENT HISTORY\nData Analyst | Jazz Telecom (2022 - Present)\n- Queried multi-terabyte data warehouses using SQL to extract customer churn metrics.\n- Designed interactive Power BI dashboards for senior leadership and executive reporting.\n- Built automated ETL scripts in Python using Pandas and NumPy.\n\nData Intern | Pakistan Software Export Board (PSEB) (2021 - 2022)\n- Cleansed dirty data and standardized company records across 5,000+ entries.\n\nEDUCATION\nBS Computer Science - COMSATS University Islamabad (2017 - 2021)\n\nCORE COMPETENCIES\nSQL, Python, Pandas, NumPy, Power BI, Tableau, Excel, Data Analysis, Statistics, Communication"
+  },
+  {
+    "id": "res_04",
+    "category": "Resume",
+    "text": "ELENA ROSTOVA\nEmail: elena.rostova@techcorp.io | Phone: +1 (206) 555-0198 | Seattle, WA\n\nSUMMARY\nCloud & DevOps Engineer with 6 years of expertise building resilient infrastructure on AWS and GCP. Expert in Terraform, Kubernetes, Docker, and CI/CD pipelines.\n\nWORK EXPERIENCE\nLead DevOps Engineer | CloudSphere Inc (2021 - Present)\n- Managed multi-region EKS clusters serving 500,000 active users.\n- Provisioned infrastructure using Terraform and Ansible.\n- Reduced deployment failure rates by 60% through automated GitHub Actions pipelines.\n\nDevOps Specialist | NorthStar Systems (2018 - 2021)\n- Containerized monolithic legacy applications with Docker and Linux systemd.\n\nEDUCATION\nBS in Information Technology - University of Washington (2014 - 2018)\n\nTECHNICAL PROFICIENCIES\nAWS, GCP, Kubernetes, Docker, Terraform, Linux, Bash, Git, Python, Jenkins, CI/CD, Prometheus"
+  },
+  {
+    "id": "res_05",
+    "category": "Resume",
+    "text": "AYESHA SIDDIQUA\nPhone: 0333 4455667\nEmail: ayesha.siddiqua@gmail.com\nKarachi, Pakistan\n\nSUMMARY\nPassionate Mobile Application Developer with 3 years hands-on experience building iOS and Android applications using Flutter and React Native.\n\nPROJECTS & EXPERIENCE\nMobile Developer | Inov8 Technologies (2022 - Present)\n- Developed fin-tech mobile wallet app with 100k+ downloads on Google Play Store.\n- Integrated RESTful APIs, biometric authentication, and push notifications.\n\nEDUCATION\nBachelor of Engineering in Software Engineering\nNED University of Engineering and Technology (2018 - 2022)\n\nKEY SKILLS\nFlutter, Dart, React Native, JavaScript, Java, Android, Firebase, Git, REST APIs, UI/UX Design"
+  },
+  {
+    "id": "res_06",
+    "category": "Resume",
+    "text": "DAVID KOWALSKI\nEmail: d.kowalski@devstudio.com | Phone: (312) 777-4321 | Chicago, IL\n\nOBJECTIVE\nExperienced Backend Developer seeking challenging engineering roles focusing on scalable microservices and distributed caching.\n\nPROFESSIONAL EXPERIENCE\nSenior Java Developer | Citadel Software (2020 - Present)\n- Designed event-driven messaging pipelines with Apache Kafka and RabbitMQ.\n- Built high-performance microservices using Spring Boot, Java, and Hibernate.\n- Integrated Redis caching layer to handle 50,000 ops/second.\n\nSoftware Developer | Apex Solutions (2017 - 2020)\n- Developed RESTful web services in Java and MySQL.\n\nEDUCATION\nBS in Computer Science - University of Illinois Urbana-Champaign (2013 - 2017)\n\nTECHNICAL SKILLS\nJava, Spring Boot, Microservices, Kafka, Redis, SQL, Docker, Kubernetes, Git, Linux"
+  },
+  {
+    "id": "res_07",
+    "category": "Resume",
+    "text": "ZAINAB FATIMA\nEmail: zainab.fatima.ai@yahoo.com | Phone: +92 345 8899001 | Rawalpindi, Pakistan\n\nPROFILE\nJunior AI Engineer with strong fundamentals in Natural Language Processing, Large Language Models, and deep neural architectures. Author of 2 IEEE conference papers.\n\nEXPERIENCE\nAI Research Assistant | National Center of AI (NCAI) (2023 - Present)\n- Fine-tuned Llama and Mistral models using LoRA and QLoRA on domain datasets.\n- Implemented Retrieval-Augmented Generation (RAG) pipelines with LangChain and FAISS.\n\nEDUCATION\nBS in Artificial Intelligence\nNational University of Sciences and Technology (NUST) (2019 - 2023) | CGPA: 3.82\n\nSKILLS\nPython, PyTorch, HuggingFace, NLP, Deep Learning, LangChain, Scikit-Learn, Pandas, Git"
+  },
+  {
+    "id": "res_08",
+    "category": "Resume",
+    "text": "MARCUS BROOKS\nEmail: marcus.brooks@frontendcraft.org | Phone: (212) 430-8910 | New York, NY\n\nSUMMARY\nCreative Frontend Architect with 7+ years creating pixel-perfect, accessible user interfaces with TypeScript, React, Next.js, and CSS/SCSS.\n\nWORK HISTORY\nLead Frontend Engineer | Stripe Media (2021 - Present)\n- Built comprehensive design system adopted across 14 product squads.\n- Modernized web application from client-rendered SPA to Next.js server components.\n\nEDUCATION\nBachelor of Fine Arts & Web Design - NYU (2013 - 2017)\n\nTECHNICAL SKILLS\nJavaScript, TypeScript, React, Next.js, HTML5, CSS3, TailwindCSS, GraphQL, Webpack, Git"
+  },
+  {
+    "id": "res_09",
+    "category": "Resume",
+    "text": "BILAL AHMED\nPhone: +92 301 5566778\nEmail: bilal.ahmed.qa@outlook.com\nFaisalabad, Pakistan\n\nPROFESSIONAL SUMMARY\nSoftware Quality Assurance Engineer with comprehensive experience in automated test frameworks, Selenium, Playwright, and Postman API testing.\n\nEXPERIENCE\nQA Automation Engineer | Systems Limited (2022 - Present)\n- Created automated regression suites in Python using PyTest and Selenium WebDriver.\n- Conducted performance load testing using Apache JMeter.\n\nEDUCATION\nBS in Information Technology - University of Agriculture Faisalabad (2018 - 2022)\n\nSKILLS\nPython, Selenium, PyTest, Playwright, Postman, API Testing, Git, Jira, CI/CD, Quality Assurance"
+  },
+  {
+    "id": "res_10",
+    "category": "Resume",
+    "text": "PRIYA RAMANUJAN\nEmail: priya.ram@dataflow.ai | Phone: +1 (650) 419-7822 | Mountain View, CA\n\nEXPERIENCE\nSenior Data Engineer | Snowflake Analytics (2021 - Present)\n- Built real-time streaming data pipelines with Apache Spark and Kafka.\n- Modeled enterprise dimensional star schemas in Snowflake data lakehouse.\n\nEDUCATION\nMS in Data Science - Columbia University (2019 - 2021)\nBS in Computer Science - IIT Madras (2015 - 2019)\n\nSKILLS\nPython, Scala, Apache Spark, Kafka, SQL, Snowflake, Airflow, AWS, Docker, Git"
+  },
+  {
+    "id": "res_11",
+    "category": "Resume",
+    "text": "OMAR FAROOQ\nEmail: omar.farooq.dev@gmail.com | Phone: 0312 9988776 | Multan, Pakistan\n\nPROFILE\nBackend Python Developer with expertise in Django REST Framework, asynchronous Celery task queues, and relational database schema design.\n\nEDUCATION\nBS Computer Science - Bahauddin Zakariya University (2019 - 2023)\n\nSKILLS\nPython, Django, FastAPI, PostgreSQL, Redis, Celery, Docker, Git, REST APIs, Linux"
+  },
+  {
+    "id": "res_12",
+    "category": "Resume",
+    "text": "LUCAS SILVA\nEmail: lucas.silva@cybersec.br | Phone: +55 (11) 98765-4321 | Sao Paulo, Brazil\n\nSUMMARY\nCybersecurity Analyst with 5 years experience in penetration testing, vulnerability management, and SIEM security monitoring.\n\nEDUCATION\nBS in Computer Networks - USP (2015 - 2019)\n\nSKILLS\nLinux, Bash, Python, Wireshark, Metasploit, Nmap, SIEM, Network Security, Git, Docker"
+  },
+  {
+    "id": "oth_01",
+    "category": "Other",
+    "text": "MEMORANDUM\nTO: All Department Heads & Engineering Leads\nFROM: Chief Technology Officer\nDATE: March 14, 2026\nSUBJECT: Transition to Hybrid Work Schedule and Office Relocation\n\nPlease be advised that effective April 1st, 2026, our engineering teams will transition to a 3-day in-office hybrid schedule. All core team meetings will be held on Tuesdays and Thursdays. Additionally, our corporate office will be relocating to the new Technology Center on 5th Avenue. Please review the attached floor plan and submit parking permit requests before the end of the month."
+  },
+  {
+    "id": "oth_02",
+    "category": "Other",
+    "text": "MUTUAL NON-DISCLOSURE AGREEMENT (NDA)\nThis Mutual Non-Disclosure Agreement (\"Agreement\") is entered into as of January 10, 2026 (\"Effective Date\"), by and between Alpha BioTech Inc. and Beta Health Solutions Ltd.\n\n1. Definition of Confidential Information: \"Confidential Information\" refers to any proprietary information, technical data, trade secrets, know-how, software prototypes, or financial disclosures.\n2. Non-Disclosure Obligations: Each party agrees to hold all confidential disclosures in strict confidence and prevent unauthorized dissemination.\n3. Governing Law: This Agreement shall be governed by and construed in accordance with the laws of Delaware."
+  },
+  {
+    "id": "oth_03",
+    "category": "Other",
+    "text": "WEEKLY SPRINT PLANNING MEETING MINUTES\nProject: Mobile Banking V2\nDate: February 25, 2026 | Time: 10:00 AM - 11:30 AM\nAttendees: Sarah (PM), John (Tech Lead), David (QA), Lisa (UX Designer)\n\nDiscussion Points:\n1. Sprint 14 Retrospective: Completed 42 story points. Login flow refactoring completed on schedule.\n2. Sprint 15 Goals: Implement biometric fingerprint authorization and fix token expiration bugs.\n3. Blockers: Waiting for third-party payment gateway sandbox API credentials.\nAction Items: Sarah to follow up with vendor support by Thursday."
+  },
+  {
+    "id": "oth_04",
+    "category": "Other",
+    "text": "ANNUAL EMPLOYEE PERFORMANCE REVIEW GUIDELINES\nHuman Resources Policy Document - Ref: HR-2026-POL-04\n\nAll team leads are required to complete self-assessments and direct-report reviews by November 30. Evaluation criteria include: Technical Delivery, Cross-functional Collaboration, Innovation & Problem Solving, and Leadership Mentorship. Numerical ratings range from 1 (Needs Significant Improvement) to 5 (Consistently Exceeds Expectations). One-on-one review sessions must be scheduled via the HR portal."
+  },
+  {
+    "id": "oth_05",
+    "category": "Other",
+    "text": "LABORATORY SAFETY PROCEDURES AND EMERGENCY PROTOCOLS\nDepartment of Chemical & Biological Sciences\nNotice Board Announcement - Building 4\n\nAll research scholars and laboratory personnel must wear certified safety goggles, chemical-resistant gloves, and lab coats before entering containment areas. In the event of a chemical spill, immediately pull the emergency shower pull-chain and notify the building safety warden. Eating and drinking inside the cleanroom facility is strictly prohibited."
+  },
+  {
+    "id": "oth_06",
+    "category": "Other",
+    "text": "SOFTWARE PRODUCT RELEASE NOTES - VERSION 4.2.0\nRelease Date: March 08, 2026\n\nNew Features:\n- Added dark mode theme support across all web dashboards.\n- Enhanced export options to support CSV, XLSX, and formatted PDF.\n- Introduced Webhook alerts for critical transaction failures.\n\nBug Fixes & Performance Improvements:\n- Fixed issue where pagination broke on tables with over 10,000 records.\n- Decreased average API response time from 180ms to 95ms.\n- Patched open-redirect vulnerability reported in security bug bounty."
+  },
+  {
+    "id": "oth_07",
+    "category": "Other",
+    "text": "COMMERCIAL REAL ESTATE LEASE AGREEMENT SUMMARY\nProperty Address: Suite 300, Tower A, Business Bay, Dubai, UAE\nLandlord: Prestige Real Estate Properties LLC\nTenant: Global Logistics Services FZCO\n\nTerm of Tenancy: 36 Months commencing 01-May-2026 and terminating 30-Apr-2029.\nSecurity Deposit: AED 50,000 payable upon signing.\nPermitted Use: General corporate administrative office only. No heavy machinery or warehouse operations permitted on premise."
+  },
+  {
+    "id": "oth_08",
+    "category": "Other",
+    "text": "PRESS RELEASE - FOR IMMEDIATE RELEASE\nTechCorp Announces Strategic Acquisition of DataFlow Analytics\nNEW YORK - February 20, 2026\n\nTechCorp, an international pioneer in enterprise software solutions, today announced that it has successfully completed the acquisition of DataFlow Analytics for $45 Million in cash and stock. The acquisition strengthens TechCorp's AI portfolio and accelerates autonomous business process automation for Fortune 500 customers."
+  },
+  {
+    "id": "oth_09",
+    "category": "Other",
+    "text": "STANDARD OPERATING PROCEDURE: SERVER DEPLOYMENT & MAINTENANCE\nIT Infrastructure Operations Manual\nDocument ID: SOP-INFRA-102\nRevision: 3.1\n\n1. Pre-deployment Checklist: Verify hardware RAID configuration and run SMART diagnostics on all NVMe drives.\n2. Operating System Installation: Deploy Ubuntu Server LTS via automated PXE boot network installation.\n3. Hardening: Disable root SSH login, enforce public key authentication, configure UFW firewall to allow ports 22, 80, and 443 only.\n4. Monitoring: Install Datadog agent and configure alerts for CPU usage exceeding 85%."
+  },
+  {
+    "id": "oth_10",
+    "category": "Other",
+    "text": "EVENT INVITATION & AGENDA: GLOBAL AI SUMMIT 2026\nLocation: Convention Center, Austin, Texas | Date: October 15-17, 2026\nKeynote Speaker: Dr. Elena Vance, Chief AI Scientist\n\nTrack 1: Generative AI in Production Workflows\nTrack 2: Scalable ML Infrastructure and Model Governance\nTrack 3: Edge Computing and TinyML Applications\nRegister before August 31 for early bird discounts. Networking dinner and cocktail reception to follow the opening keynote."
+  },
+  {
+    "id": "oth_11",
+    "category": "Other",
+    "text": "UNIVERSITY COURSE SYLLABUS: CS-401 ADVANCED MACHINE LEARNING\nDepartment of Computer Science - Spring Semester 2026\nInstructor: Prof. Robert Henderson | Office Hours: MWF 2:00 PM - 4:00 PM\n\nCourse Description: Advanced exploration of supervised learning, kernel methods, ensemble learning, neural network architectures, and reinforcement learning.\nGrading Policy:\n- Assignments (4 total): 25%\n- Midterm Examination: 25%\n- Final Research Term Project: 35%\n- Class Participation: 15%"
+  },
+  {
+    "id": "oth_12",
+    "category": "Other",
+    "text": "PUBLIC TENDER NOTICE - PROCUREMENT OF NETWORK SWITCHES\nTender Reference: PT-2026-COMM-09\nPublished by: Municipal Information Technology Authority\n\nSealed bids are invited from authorized dealers and manufacturers for the supply, installation, and commissioning of enterprise-grade core switches and optical transceivers. Bid documents can be collected from the procurement office during working hours. Last date for submission of financial and technical proposals is 25th March 2026."
+  }
+]
