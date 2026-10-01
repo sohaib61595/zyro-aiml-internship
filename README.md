@@ -50,17 +50,31 @@ zyro-aiml-internship/
 │   ├── extractor.py            # Regex entity extraction with missing-field resilience
 │   ├── test_week3.py           # Unit & integration test suite with batch document audit
 │   └── README.md               # Complete Week 3 documentation and milestone report
-└── week-4/                     # Task 03: Document Management & SQLite Repository (Week 4)
-    ├── app.py                  # 4-Tab Streamlit Management Studio (Upload, Repository, Inspector, Analytics)
-    ├── db_repository.py         # Decoupled SQLite repository layer (CRUD, multi-field search, stats)
-    ├── storage_manager.py       # Categorized storage (invoices/resumes/other), safe filenames & SHA-256
-    ├── pipeline.py              # End-to-end 11-step ingestion and understanding pipeline
-    ├── test_week4.py            # Automated 10-stage test suite (11 documents, duplicates, search, filters)
-    ├── document_repository.db   # Relational SQLite database repository
-    ├── requirements.txt         # Week 4 dependencies
-    ├── README.md                # Comprehensive architecture and operational documentation
-    ├── storage/                 # Organized physical directory storage
-    └── samples/                 # Curated diverse test documents (invoices, resumes, other, scans)
+├── week-4/                     # Task 03: Document Management & SQLite Repository (Week 4)
+│   ├── app.py                  # 4-Tab Streamlit Management Studio (Upload, Repository, Inspector, Analytics)
+│   ├── db_repository.py         # Decoupled SQLite repository layer (CRUD, multi-field search, stats)
+│   ├── storage_manager.py       # Categorized storage (invoices/resumes/other), safe filenames & SHA-256
+│   ├── pipeline.py              # End-to-end 11-step ingestion and understanding pipeline
+│   ├── test_week4.py            # Automated 10-stage test suite (11 documents, duplicates, search, filters)
+│   ├── document_repository.db   # Relational SQLite database repository
+│   ├── requirements.txt         # Week 4 dependencies
+│   ├── README.md                # Comprehensive architecture and operational documentation
+│   ├── storage/                 # Organized physical directory storage
+│   └── samples/                 # Curated diverse test documents (invoices, resumes, other, scans)
+└── week 5/                     # Task 04: Advanced Document Workflow & Automation (Week 5)
+    ├── app.py                  # 5-Tab Streamlit Workflow Studio (Ingestion, Review Queue, Batch, Search, Analytics)
+    ├── database.py             # SQLite repository & immutable audit logging
+    ├── storage.py              # Organized storage & cryptographic SHA-256 duplicate handling
+    ├── processor.py            # Native PDF parsing, Otsu binarization & preprocessed OCR
+    ├── classifier.py           # Calibrated Linear SVM classification with confidence thresholding
+    ├── extractor.py            # Entity extraction engine (Invoices, Resumes, Other)
+    ├── validator.py            # Advanced document & format validation (email, phone, dates, amount)
+    ├── workflow.py             # FSM state machine, rule-based decision engine & batch processor
+    ├── audit.py                # Chronological audit trail & workflow event logging
+    ├── test_week5.py           # 12-scenario automated test suite (15 documents, 100% pass)
+    ├── requirements.txt        # Week 5 dependencies
+    ├── README.md               # Complete architecture, workflow lifecycle & test report
+    └── samples/                # 15 diverse curated test documents
 ```
 
 
