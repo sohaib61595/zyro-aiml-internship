@@ -61,20 +61,40 @@ zyro-aiml-internship/
 │   ├── README.md                # Comprehensive architecture and operational documentation
 │   ├── storage/                 # Organized physical directory storage
 │   └── samples/                 # Curated diverse test documents (invoices, resumes, other, scans)
-└── week 5/                     # Task 04: Advanced Document Workflow & Automation (Week 5)
-    ├── app.py                  # 5-Tab Streamlit Workflow Studio (Ingestion, Review Queue, Batch, Search, Analytics)
-    ├── database.py             # SQLite repository & immutable audit logging
-    ├── storage.py              # Organized storage & cryptographic SHA-256 duplicate handling
-    ├── processor.py            # Native PDF parsing, Otsu binarization & preprocessed OCR
-    ├── classifier.py           # Calibrated Linear SVM classification with confidence thresholding
-    ├── extractor.py            # Entity extraction engine (Invoices, Resumes, Other)
-    ├── validator.py            # Advanced document & format validation (email, phone, dates, amount)
-    ├── workflow.py             # FSM state machine, rule-based decision engine & batch processor
-    ├── audit.py                # Chronological audit trail & workflow event logging
-    ├── test_week5.py           # 12-scenario automated test suite (15 documents, 100% pass)
-    ├── requirements.txt        # Week 5 dependencies
-    ├── README.md               # Complete architecture, workflow lifecycle & test report
-    └── samples/                # 15 diverse curated test documents
+├── week-5/                     # Task 04: Advanced Document Workflow & Automation (Week 5)
+│   ├── app.py                  # 5-Tab Streamlit Workflow Studio (Ingestion, Review Queue, Batch, Search, Analytics)
+│   ├── database.py             # SQLite repository & immutable audit logging
+│   ├── storage.py              # Organized storage & cryptographic SHA-256 duplicate handling
+│   ├── processor.py            # Native PDF parsing, Otsu binarization & preprocessed OCR
+│   ├── classifier.py           # Calibrated Linear SVM classification with confidence thresholding
+│   ├── extractor.py            # Entity extraction engine (Invoices, Resumes, Other)
+│   ├── validator.py            # Advanced document & format validation (email, phone, dates, amount)
+│   ├── workflow.py             # FSM state machine, rule-based decision engine & batch processor
+│   ├── audit.py                # Chronological audit trail & workflow event logging
+│   ├── test_week5.py           # 12-scenario automated test suite (15 documents, 100% pass)
+│   ├── requirements.txt        # Week 5 dependencies
+│   ├── README.md               # Complete architecture, workflow lifecycle & test report
+│   └── samples/                # 15 diverse curated test documents
+└── week-6/                     # Final Project Completion: AI Document Intelligence & Workflow Platform (Week 6)
+    ├── app.py                  # 6-Tab Streamlit Management Studio & AI Assistant Interface
+    ├── api.py                  # Production-Facing FastAPI REST API (Swagger OpenAPI Docs)
+    ├── config.py               # Centralized configuration, thresholds & RBAC rules
+    ├── database.py             # Relational SQLite repository (documents, audit_log, rag_chunks)
+    ├── storage.py              # Secure storage, directory traversal defense & SHA-256 deduplication
+    ├── processor.py            # PyMuPDF digital parser, Otsu binarization, OCR fallback & RAG chunker
+    ├── classifier.py           # Calibrated Linear SVM (TF-IDF) with 0.75 confidence threshold
+    ├── extractor.py            # Multi-category structured entity extractor (Invoices, Resumes, Contracts, Other)
+    ├── validator.py            # Format & required field validation (RFC email, phone, date, amount)
+    ├── anomaly.py              # Mathematical arithmetic checks, repeated IDs & high-value policy flags
+    ├── rag_engine.py           # Semantic chunking, vector indexing, retrieval, citations & grounded Q&A
+    ├── workflow.py             # FSM state machine, decision engine, review actions & batch processor
+    ├── audit.py                # Immutable chronological audit event logging & history
+    ├── test_week6.py           # 14-scenario automated verification & quality gate suite (100% Pass)
+    ├── Dockerfile              # Multi-stage production container
+    ├── docker-compose.yml      # Container orchestration for Streamlit UI + FastAPI API
+    ├── requirements.txt        # Production dependencies
+    ├── README.md               # Complete enterprise architecture, API docs & evaluation evidence
+    └── samples/                # Curated 18-document test suite covering all 14 scenarios
 ```
 
 

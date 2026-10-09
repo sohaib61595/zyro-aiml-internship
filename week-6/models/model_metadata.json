@@ -1,0 +1,11 @@
+{
+  "model_name": "Calibrated Linear Support Vector Machine (LinearSVC)",
+  "vectorizer": "TF-IDF (1-2 ngrams, sublinear tf)",
+  "classes": [
+    "Invoice",
+    "Resume",
+    "Other"
+  ],
+  "sample_count": 36,
+  "calibration": "Sigmoid (Platt Scaling) via 3-Fold CV"
+}
